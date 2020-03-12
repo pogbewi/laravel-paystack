@@ -23,12 +23,12 @@
     },
    "autoload": {
         "psr-4": {
-          "Pogbewi\\Paystack\\": "src/"
+          "Unicodeveloper\\Paystack\\": "src/"
         }
    },
    "autoload-dev": {
         "psr-4": {
-            "Pogbewi\\Paystack\\Test\\": "tests"
+            "Unicodeveloper\\Paystack\\Test\\": "tests"
         }
     },
     "scripts": {
@@ -37,10 +37,10 @@
    "extra": {
     "laravel": {
         "providers": [
-            "Pogbewi\\Paystack\\PaystackServiceProvider"
+            "Unicodeveloper\\Paystack\\PaystackServiceProvider"
         ],
         "aliases": {
-            "Paystack": "Pogbewi\\Paystack\\Facades\\Paystack"
+            "Paystack": "Unicodeveloper\\Paystack\\Facades\\Paystack"
         }
     }
   }
